@@ -1,8 +1,7 @@
 <?php
-    include 'config.php';
+    require 'config.php';
     $query = "SELECT DISTINCT Institute from drop_pre where Institute IS NOT NULL";
     $result = $conn->query($query);
-
 ?>
 
 <html>
