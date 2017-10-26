@@ -21,13 +21,10 @@
 
   <select id="dropdown">
             <?php
-
                 while($row=mysqli_fetch_array( $result)) {
                   echo "<option value=".$row['Institute'].">";
                   echo $row['Institute'];
-                   echo "</option>";
-
-                
+                   echo "</option>";                
                   }
                 
 
