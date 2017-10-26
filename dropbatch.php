@@ -19,9 +19,6 @@
    google.charts.setOnLoadCallback(drawChart);  
    </script>
 </head>
-
-
-
 <body>
 
   <select id="dropdown">
@@ -30,15 +27,13 @@
                   echo "<option value=".$row['Institute'].">";
                   echo $row['Institute'];
                    echo "</option>";                
-                  }
-                
+                  }              
 
             ?>
 </select>
   <script src="pre_dropbatch.js"></script>
 	<div id="columnchart_material"></div>
 </body>
-
 </html>
 
 
